@@ -1,5 +1,7 @@
 # MedLink – AI-First CRM HCP Module
 
+![Banner](images/banner.png)
+
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -12,14 +14,6 @@
 
 MedLink CRM is an enterprise-grade, high-fidelity healthcare customer relationship management system specializing in the Healthcare Professional (HCP) module. It provides medical representatives with a dual-logging system to record visits either through a structured, real-time auto-saving form, or via a Microsoft Copilot-style AI conversation powered by **FastAPI** and a compiled **LangGraph** stateful agent workflow.
 
----
-
-## 📸 Project Banner
-
-![MedLink Login Portal](images/login%20portal.png)
-*Figure 1: The premium, dark-themed login interface featuring a custom animated glassmorphism portal.*
-
----
 
 ## 📖 Overview
 
