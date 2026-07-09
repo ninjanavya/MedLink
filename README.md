@@ -14,6 +14,28 @@
 
 MedLink CRM is an enterprise-grade, high-fidelity healthcare customer relationship management system specializing in the Healthcare Professional (HCP) module. It provides medical representatives with a dual-logging system to record visits either through a structured, real-time auto-saving form, or via a Microsoft Copilot-style AI conversation powered by **FastAPI** and a compiled **LangGraph** stateful agent workflow.
 
+---
+
+## 📌 Table of Contents
+
+- [Overview](#-overview)
+- [Why this project?](#-why-this-project)
+- [Key Features](#-key-features)
+- [Screenshots](#-screenshots)
+- [AI Workflow](#-ai-workflow)
+- [LangGraph Architecture](#-langgraph-architecture)
+- [The 5 LangGraph Tools](#-the-5-langgraph-tools)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#-project-structure)
+- [Installation & Setup](#-installation--setup)
+- [API Overview](#-api-overview)
+- [Why LangGraph over standard chatbots?](#-why-langgraph-over-standard-chatbots)
+- [Database Design](#-database-design)
+- [Example User Flow](#-example-user-flow)
+- [Future Enhancements](#-future-enhancements)
+- [License](#-license)
+
+---
 
 ## 📖 Overview
 
