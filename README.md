@@ -169,7 +169,7 @@ graph TD
 * **Frontend:** React 18, Redux Toolkit, React Router v6, Axios, Framer Motion, Vanilla CSS
 * **Backend:** FastAPI, Python 3.10+, LangGraph, SQLAlchemy (PostgreSQL & SQLite)
 * **LLM Engine:** Groq API Client (`gemma2-9b-it` model)
-* **Deployment:** Render Blueprint Spec (`render.yaml`), PostgreSQL database service
+* **Deployment:** PostgreSQL database service
 
 ---
 
@@ -240,7 +240,6 @@ MedLink/
 │   ├── vite.config.ts            # Vite compile configs
 │   └── tsconfig.json
 ├── images/                       # Project system screenshots for README
-├── render.yaml                   # Infrastructure-as-code spec for Render deployments
 ├── .env.example                  # Template env configs
 └── README.md                     # This file
 ```
