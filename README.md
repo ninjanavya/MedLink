@@ -1,6 +1,6 @@
 # MedLink – AI-First CRM HCP Module
 
-![Banner](images/banner.png)
+![Banner](images/banner_login.png)
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
