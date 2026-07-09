@@ -10,6 +10,11 @@ load_dotenv()
 # Default to SQLite for easy local testing, but use PostgreSQL if DATABASE_URL is set
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./healthcare_crm.db")
 
+# Render/Heroku sometimes expose PostgreSQL URLs starting with postgres://
+# SQLAlchemy 1.4+ deprecated postgres:// prefix in favor of postgresql://
+if DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
+
 # For SQLite, we need to allow multithreaded access
 if DATABASE_URL.startswith("sqlite"):
     connect_args = {"check_same_thread": False}
