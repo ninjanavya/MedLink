@@ -1,7 +1,6 @@
 # MedLink CRM Render Deployment Blueprint
-# Deploy database, backend FastAPI service, and frontend static site.
 services:
-  # Backend Web Service
+  # Backend Web Service (FastAPI)
   - type: web
     name: medlink-backend
     env: python
@@ -15,12 +14,11 @@ services:
       - key: GROQ_API_KEY
         sync: false # Set manually in the Render dashboard
 
-  # Frontend Static Site
-  - type: web
+  # Frontend Static Site (React/Vite)
+  - type: static
     name: medlink-frontend
-    env: static
     buildCommand: cd frontend && npm install && npm run build
-    publishDir: frontend/dist
+    publishPath: frontend/dist
     envVars:
       - key: VITE_API_BASE_URL
         fromService:
