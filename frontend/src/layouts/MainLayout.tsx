@@ -161,10 +161,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
             <span>Log Out</span>
           </button>
         </nav>
-        
-        <div style={{ marginTop: 'auto', padding: '16px', borderTop: '1px solid rgba(255,255,255,0.07)', fontSize: '11px', color: '#475569', fontWeight: '600', textAlign: 'center' }}>
-          v1.0.0 (FastAPI + LangGraph)
-        </div>
+
       </div>
 
       {/* Sidebar background overlay for mobile */}
